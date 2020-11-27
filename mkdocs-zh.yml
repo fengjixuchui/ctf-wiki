@@ -260,6 +260,8 @@ nav:
       - arm-pwn:
         - 环境搭建: pwn/linux/arm/environment.md
         - arm-rop: pwn/linux/arm/arm_rop.md
+      - mips-pwn:
+        - mips-rop: pwn/linux/mips/mips_rop.md
       - Summary:
         - 获取地址: pwn/linux/summary/get-address.md
         - 控制程序执行流: pwn/linux/summary/hijack-control-flow.md
@@ -305,10 +307,12 @@ theme:
   palette:
     primary: 'white'
     accent: 'red'
+    scheme: preference
+  
   icon:
     logo: 'material/school'
   features:
-    - tabs
+    - navigation.tabs
   font:
     text: 'Noto Sans'
     code: 'Source Code Pro'
@@ -327,6 +331,7 @@ extra_javascript:
 
 extra_css:
   - '_static/css/extra.css'
+
 
 # Extensions
 markdown_extensions:
