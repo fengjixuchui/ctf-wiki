@@ -32,12 +32,13 @@ plugins:
 nav:
 - Start:
   - index.md
-  - discussion.md
+  - usage.md
   - 贡献指南:
     - contribute/before-contributing.md
     - contribute/basic-contribute-approach.md
     - contribute/documentation-requirement.md
     - contribute/translation.md
+  - discussion.md
 - Introduction:
   - introduction/history.md
   - introduction/mode.md
@@ -310,6 +311,7 @@ nav:
       - pwn/linux/integeroverflow/intof.md
     - 沙箱逃逸:
       - pwn/linux/sandbox/python-sandbox-escape.md
+      - pwn/linux/sandbox/c-sandbox-escape.md
     - kernel:
       - pwn/linux/kernel/environment.md
       - pwn/linux/kernel/basic_knowledge.md
